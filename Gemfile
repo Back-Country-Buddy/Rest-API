@@ -35,6 +35,7 @@ group :development, :test do
   gem 'capybara'
   gem 'pry'
   gem "shoulda-matchers"
+  gem "jsonapi-serializer"
 end
 
 group :development do
