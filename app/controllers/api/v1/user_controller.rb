@@ -14,4 +14,22 @@ class Api::V1::UserController < ApplicationController
       render json: {"error" => {}}, status:404
     end
   end
+
+  def create
+    user = User.create!(user_params)
+    begin
+      render json: UserSerializer.new(user)
+    rescue
+      render json: {"error" => {}}, status:404
+    end
+  end
+
+  def destroy
+    User.find(params[:id]).destroy
+  end
+
+  private
+  def user_params
+    params.permit(:user_name, :email_address, :emergency_contact_name, :emergency_number)
+  end
 end
