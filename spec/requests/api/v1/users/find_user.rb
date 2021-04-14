@@ -23,7 +23,7 @@ RSpec.describe 'Users', type: :request do
 
   it "returns 404 if user not found" do
   get api_v1_user_path(99999)
-  
+
   expect(response.status).to eq(404)
   end
 end

@@ -24,6 +24,10 @@ class Api::V1::UserController < ApplicationController
     end
   end
 
+  def destroy
+    User.find(params[:id]).destroy
+  end
+
   private
   def user_params
     params.permit(:user_name, :email_address, :emergency_contact_name, :emergency_number)
