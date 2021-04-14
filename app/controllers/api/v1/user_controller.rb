@@ -25,7 +25,7 @@ class Api::V1::UserController < ApplicationController
     end
   end
 
-  def updated
+  def update
     begin
       user = User.find(params[:id])
       user.update!(user_params)

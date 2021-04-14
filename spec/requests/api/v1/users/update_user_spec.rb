@@ -5,8 +5,10 @@ RSpec.describe 'Users', type: :request do
     tim = User.create!(user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'Mah', emergency_number: "234")
     ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567")
     
+    user_params = {user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'daddy', emergency_number: "234"}
     
-    patched api_v1_user_path(tim.id)
+    patch api_v1_user_path(tim.id), params: user_params
+    
     expect(response).to be_successful
     user = JSON.parse(response.body, symbolize_names: true)
     
@@ -17,12 +19,12 @@ RSpec.describe 'Users', type: :request do
     
     expect(user[:data][:attributes][:user_name]).to eq(tim.user_name)
     expect(user[:data][:attributes][:email_address]).to eq(tim.email_address)
-    expect(user[:data][:attributes][:emergency_contact_name]).to eq(tim.emergency_contact_name)
+    expect(user[:data][:attributes][:emergency_contact_name]).to eq('daddy')
     expect(user[:data][:attributes][:emergency_number]).to eq(tim.emergency_number)
   end
 
   it "returns 404 if user not found" do
-  get api_v1_user_path(99999)
+  patch api_v1_user_path(99999)
 
   expect(response.status).to eq(404)
   end
