@@ -3,6 +3,7 @@ class User < ApplicationRecord
                         :email_address, 
                         :emergency_contact_name,
                         :emergency_number
+  validates :email_address, uniqueness: true
   
   has_many :tour_users
   has_many :tours, through: :tour_users
