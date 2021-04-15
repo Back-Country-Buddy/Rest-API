@@ -6,6 +6,7 @@ RSpec.describe User, type: :model do
     it { should validate_presence_of :email_address}
     it { should validate_presence_of :emergency_contact_name}
     it { should validate_presence_of :emergency_number}
+    it { should validate_presence_of :auth}
   end
 
   describe 'relationships' do
