@@ -7,4 +7,3 @@ class Tour < ApplicationRecord
   has_many :plans, dependent: :destroy
   has_many :users, through: :tour_users
 end
-
