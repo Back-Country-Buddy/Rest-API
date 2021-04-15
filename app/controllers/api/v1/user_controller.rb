@@ -9,8 +9,8 @@ class Api::V1::UserController < ApplicationController
 
   def show
     begin
-      require 'pry'; binding.pry
-      render json: UserSerializer.new(User.find(params[:id]))
+      # require 'pry'; binding.pry
+      render json: UserSerializer.new(User.where(auth: params[:id]))
     rescue
       render json: {"error" => {}}, status:404
     end

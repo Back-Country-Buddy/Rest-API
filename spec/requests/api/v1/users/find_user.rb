@@ -2,11 +2,11 @@ require 'rails_helper'
 RSpec.describe 'Users', type: :request do
   
   it 'it returns  users' do
-    tim = User.create!(user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'Mah', emergency_number: "234")
-    ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567")
+    tim = User.create!(user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'Mah', emergency_number: "234", auth: "xx2032432")
+    ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567", auth: "x23423432")
     
     
-    get api_v1_user_path(tim.id)
+    get api_v1_user_path(tim.auth)
     expect(response).to be_successful
     user = JSON.parse(response.body, symbolize_names: true)
     
