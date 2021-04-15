@@ -26,7 +26,7 @@ class Api::V1::PlanController < ApplicationController
   end
 
   def create
-    tour = Tour.find_by(params(:tour_id))
+    tour = Tour.find(params[:tour_id])
     plan = tour.plans.create!(plan_params)
     begin
       render json: PlanSerializer.new(plan)

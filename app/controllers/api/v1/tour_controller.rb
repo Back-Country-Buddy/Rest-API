@@ -26,7 +26,7 @@ class Api::V1::TourController < ApplicationController
   end
 
   def create
-    user = User.find_by(params(:user_id))
+    user = User.find(params[:creator_id])
     tour = user.tours.create!(tour_params)
     begin
       render json: TourSerializer.new(tour)

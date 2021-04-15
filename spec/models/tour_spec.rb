@@ -5,7 +5,6 @@ RSpec.describe Tour, type: :model do
     it { should validate_presence_of :date}
     it { should validate_presence_of :location}
     it { should validate_presence_of :creator_id}
-    it { should validate_presence_of :complete}
   end
 
   describe 'relationships' do
