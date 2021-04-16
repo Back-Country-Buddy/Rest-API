@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'delete an item' do
   it 'deletes an item and returns a 204 with no body' do
-    tim = User.create!(user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'Mah', emergency_number: "234", auth: "xx2032432")
-    ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567", auth: "x23423432")
+    tim = User.create!(user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'Mah', emergency_number: "234")
+    ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567")
     id = tim.id
 
     expect{ delete "/api/private/v1/user/#{id}" }.to change(User, :count).by(-1)

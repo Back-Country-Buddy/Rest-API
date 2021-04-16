@@ -9,7 +9,7 @@ RSpec.describe 'Create a plan' do
 
     plan_params = { hazard_weather: "string", hazard_avalanche: "another one", hazard_summary: "boom, anotha one", route_preview: "route preview string", route_alternative: "alternative route", emergency_plan: "in case of emergency", debrief_conditions: "here is the debrief", debrief_decisions: "this is what we decided", debrief_plan: "this is the debrief plan" }
 
-    post api_v1_user_tour_plan_index_path(params: plan_params, user_id: @user.id, tour_id: @tour.id)
+    post api_private_v1_user_tour_plan_index_path(params: plan_params, user_id: @user.id, tour_id: @tour.id)
 
     expect(response).to be_successful
 
