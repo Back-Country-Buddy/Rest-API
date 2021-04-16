@@ -1,4 +1,4 @@
-class Api::V1::TourController < ApplicationController
+class Api::Private::V1::TourController < ApplicationController
   def index
     begin
       render json: TourSerializer.new(Tour.all)

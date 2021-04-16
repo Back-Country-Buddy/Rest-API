@@ -1,4 +1,4 @@
-class Api::V1::PlanController < ApplicationController
+class Api::Private::V1::PlanController < ApplicationController
   def index
     begin
       render json: PlanSerializer.new(Plan.all)

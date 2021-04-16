@@ -1,4 +1,4 @@
-class PrivateController < ActionController::API
+class Api::Private::PrivateController < ActionController::API
   include Secured
 
   def private
