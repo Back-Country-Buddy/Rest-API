@@ -7,7 +7,7 @@ RSpec.describe 'Users', type: :request do
     
     user_params = {user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'daddy', emergency_number: "234", auth: "xx2032432"}
     
-    patch api_v1_user_path(tim.id), params: user_params
+    patch api_private_v1_user_path(tim.id), params: user_params
     
     expect(response).to be_successful
     user = JSON.parse(response.body, symbolize_names: true)
@@ -25,7 +25,7 @@ RSpec.describe 'Users', type: :request do
   end
 
   it "returns 404 if user not found" do
-  patch api_v1_user_path(99999)
+  patch api_private_v1_user_path(99999)
 
   expect(response.status).to eq(404)
   end

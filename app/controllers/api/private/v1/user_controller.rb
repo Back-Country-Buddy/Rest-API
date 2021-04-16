@@ -9,7 +9,7 @@ class Api::Private::V1::UserController < ApplicationController
 
   def show
     begin
-      render json: UserSerializer.new(User.where(auth: params[:id]))
+      render json: UserSerializer.new(User.where(email_address: params[:email]))
     rescue
       render json: {"error" => {}}, status:404
     end
