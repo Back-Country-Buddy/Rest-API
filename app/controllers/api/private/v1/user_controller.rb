@@ -1,17 +1,17 @@
 class Api::Private::V1::UserController < ApplicationController
-  def index
-    begin
-      render json: UserSerializer.new(User.all)
-    rescue
-      render json: {"error" => {}}, status:404
-    end
-  end
+  # def index
+  #   begin
+  #     render json: UserSerializer.new(User.all)
+  #   rescue
+  #     render json: {"error" => {}}, status:404
+  #   end
+  # end
 
   def show
-    begin
-      require 'pry'; binding.pry
-      render json: UserSerializer.new(User.where(email_address: params[:id]))
-    rescue
+    user = User.where(email_address: "#{params[:id]}.com")
+    if user.exists?
+      render json: UserSerializer.new(user)
+    else
       render json: {"error" => {}}, status:404
     end
   end

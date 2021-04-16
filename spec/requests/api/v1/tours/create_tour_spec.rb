@@ -8,7 +8,7 @@ RSpec.describe 'Create a tour' do
 
     tour_params = { date: "2021-06-30", location: "the moon", creator_id: @user.id }
 
-    post api_v1_user_tour_index_path(params: tour_params, user_id: @user.id)
+    post api_private_v1_user_tour_index_path(params: tour_params, user_id: @user.id)
 
     expect(response).to be_successful
 

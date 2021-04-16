@@ -2,8 +2,7 @@ class User < ApplicationRecord
   validates_presence_of :user_name,
                         :email_address, 
                         :emergency_contact_name,
-                        :emergency_number,
-                        :auth
+                        :emergency_number
   validates :email_address, uniqueness: true
   
   has_many :tour_users
