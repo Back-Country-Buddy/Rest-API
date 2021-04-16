@@ -6,7 +6,7 @@ RSpec.describe 'delete an item' do
     ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567", auth: "x23423432")
     id = tim.id
 
-    expect{ delete "/api/v1/user/#{id}" }.to change(User, :count).by(-1)
+    expect{ delete "/api/private/v1/user/#{id}" }.to change(User, :count).by(-1)
 
     expect(response).to be_successful
     expect(response.status).to eq(204)

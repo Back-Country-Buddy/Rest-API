@@ -5,7 +5,7 @@ RSpec.describe 'Create a user' do
 
     user_params = {user_name: 'TimtheSkier', email_address: 'noway@gmail.com', emergency_contact_name: 'daddy', emergency_number: "234", auth: "xx2032432"}
 
-    post api_v1_user_index_path(user_params)
+    post api_private_v1_user_index_path(user_params)
     expect(response).to be_successful
   
     user = JSON.parse(response.body, symbolize_names: true)

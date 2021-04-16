@@ -6,7 +6,7 @@ RSpec.describe 'Users', type: :request do
     ian = User.create!(user_name: 'IantheBoarder', email_address: 'yessir@gmail.com', emergency_contact_name: 'Pah', emergency_number: "567", auth: "x23423432")
     
     
-    get api_v1_user_path(tim.auth)
+    get api_private_v1_user_path(tim.auth)
     expect(response).to be_successful
     user = JSON.parse(response.body, symbolize_names: true)
     
@@ -22,7 +22,7 @@ RSpec.describe 'Users', type: :request do
   end
 
   it "returns 404 if user not found" do
-  get api_v1_user_path(99999)
+  get api_private_v1_user_path(99999)
 
   expect(response.status).to eq(404)
   end
