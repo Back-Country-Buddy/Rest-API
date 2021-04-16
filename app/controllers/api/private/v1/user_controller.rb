@@ -9,7 +9,8 @@ class Api::Private::V1::UserController < ApplicationController
 
   def show
     begin
-      render json: UserSerializer.new(User.where(email_address: params[:email]))
+      require 'pry'; binding.pry
+      render json: UserSerializer.new(User.where(email_address: params[:id]))
     rescue
       render json: {"error" => {}}, status:404
     end
