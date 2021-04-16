@@ -8,7 +8,7 @@ class Api::Private::V1::UserController < ApplicationController
   # end
 
   def show
-    user = User.where(email_address: params[:id]})
+    user = User.where(email_address: "#{params[:id]}.com")
     if user.exists?
       render json: UserSerializer.new(user)
     else
