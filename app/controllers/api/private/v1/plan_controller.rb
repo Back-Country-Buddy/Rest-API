@@ -1,7 +1,8 @@
 class Api::Private::V1::PlanController < ApplicationController
   def index
+    plan = Plan.where(tour_id: :tour_id)
     begin
-      render json: PlanSerializer.new(Plan.all)
+      render json: PlanSerializer.new(plan)
     rescue
       render json: {"error" => {}}, status: 404
     end
