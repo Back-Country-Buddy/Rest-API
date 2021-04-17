@@ -112,7 +112,7 @@ See the [open issues](https://github.com/Back-Country-Buddy/Rest-API/issues) for
 
 2. Fork and Clone the repo
    ```
-   git clone [https://github.com/AlexanderOsborne/rails-engine]
+   git clone [https://github.com/Back-Country-Buddy/Rest-API/]
    ```
 3. Install gems
      -- For list of Gems see [here](https://github.com/Back-Country-Buddy/Rest-API/blob/main/Gemfile)
@@ -148,7 +148,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/AlexanderOsborne/rails-engine](https://github.com/Back-Country-Buddy/Rest-API)
+Project Link: [https://github.com/Back-Country-Buddy/Rest-API/](https://github.com/Back-Country-Buddy/Rest-API)
 
 
 

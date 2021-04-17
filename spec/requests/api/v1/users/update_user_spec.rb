@@ -11,7 +11,6 @@ RSpec.describe 'Users', type: :request do
     
     expect(response).to be_successful
     user = JSON.parse(response.body, symbolize_names: true)
-    
     expect(user).to be_a(Hash)
     expect(user[:data].count).to eq(3)
     expect(user[:data].keys).to match_array(%i[id type attributes])
