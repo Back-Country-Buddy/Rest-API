@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  match '*all', controller: 'application', action: 'cors_preflight_check', via: [:options]
+
+  
   namespace :api do
     namespace :private do
       namespace :v1 do
