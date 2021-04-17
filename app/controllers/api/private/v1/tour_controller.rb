@@ -1,7 +1,9 @@
 class Api::Private::V1::TourController < ApplicationController
   def index
+#     MANDATORY: CHANGE THIS LATER, HOTFIX TO ALLOW CREATING USER TO ACCESS ALL TOURS, THIS DOES NOT WORK FOR ADDITIONAL USERS, UPDATE THIS AFTER MAKING USERTOUR TABLE
+    tours = Tour.where(creator_id: params[:user_id])
     begin
-      render json: TourSerializer.new(Tour.all)
+      render json: TourSerializer.new(tours)
     rescue
       render json: {"error" => {}}, status: 404
     end
