@@ -8,6 +8,7 @@ class CreatePlans < ActiveRecord::Migration[5.2]
       t.string :route_alternative, :default => "nil"
       t.string :emergency_plan, :default => "nil"
       t.boolean :checklist, :default => false
+      t.boolean :departure_check, :default => false
       t.string :debrief_conditions, :default => "nil"
       t.string :debrief_decisions, :default => "nil"
       t.string :debrief_plan, :default => "nil"
