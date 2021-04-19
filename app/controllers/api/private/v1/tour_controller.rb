@@ -35,6 +35,10 @@ class Api::Private::V1::TourController < ApplicationController
     end
   end
 
+  def destroy
+    Tour.find(params[:id]).destroy
+  end
+
   private
   def tour_params
     params.permit(:date, :location, :creator_id, :complete)
