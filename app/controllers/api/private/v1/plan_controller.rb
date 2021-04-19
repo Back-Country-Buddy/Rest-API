@@ -1,6 +1,6 @@
 class Api::Private::V1::PlanController < ApplicationController
   def index
-    plan = Plan.where(tour_id: :tour_id)
+    plan = Plan.where(tour_id: params[:tour_id])
     begin
       render json: PlanSerializer.new(plan)
     rescue
