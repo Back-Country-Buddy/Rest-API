@@ -51,7 +51,7 @@ Endpoints and example queries are listed below.
 
 After logging in with AuthO all request must include Auth token in the header parameter authorization.
 
-Users:
+##Users:
 
 Example JSON response for the User resource:
 ```
