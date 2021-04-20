@@ -1,8 +1,9 @@
 class Api::Private::V1::TourUserController < ApplicationController
-  before_action :find_tour, :find_user, only: :create, :index
+  before_action :find_tour, only: %i[ create index ]
+  before_action :find_user, only: :create
 
   def index
-    user = @tour.users
+    users = @tour.users
     begin
       render json: UserSerializer.new(users)
     rescue
@@ -11,16 +12,17 @@ class Api::Private::V1::TourUserController < ApplicationController
   end
 
   def create
-    TourUser.create!(@tour, @user)
+    # binding.pry
+    TourUser.create!(tour: @tour, user: @user)
   end
 
   private
 
   def find_tour
-    @tour = Tour.where(id: params[:tour_id])
+    @tour = Tour.find(params[:tour_id])
   end
 
   def find_user
-    @user = User.where(email_address: params[:email_address])
+    @user = User.where(email_address: params[:email_address]).first
   end
 end

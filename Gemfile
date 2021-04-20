@@ -16,6 +16,11 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'bacon', '~> 1.2'
+gem 'bacon-bits', '~> 0.1.0'
+gem 'mocha', '~> 1.12'
+gem 'mocha-on-bacon', '~> 0.2.3'
+gem 'hirb', '~> 0.7.3'
 gem 'jwt'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
