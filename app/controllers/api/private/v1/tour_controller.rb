@@ -1,7 +1,8 @@
 class Api::Private::V1::TourController < ApplicationController
+  before_action :find_user, only: :index
+
   def index
-#     MANDATORY: CHANGE THIS LATER, HOTFIX TO ALLOW CREATING USER TO ACCESS ALL TOURS, THIS DOES NOT WORK FOR ADDITIONAL USERS, UPDATE THIS AFTER MAKING USERTOUR TABLE
-    tours = Tour.where(creator_id: params[:user_id])
+    tours = @user.tours
     begin
       render json: TourSerializer.new(tours)
     rescue
@@ -42,6 +43,11 @@ class Api::Private::V1::TourController < ApplicationController
   end
 
   private
+
+  def find_user
+    @user = User.find(params[:user_id])
+  end
+
   def tour_params
     params.permit(:date, :location, :creator_id, :complete)
   end

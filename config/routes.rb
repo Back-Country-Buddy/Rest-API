@@ -10,6 +10,7 @@ Rails.application.routes.draw do
        end
       resources :tour, only: [:show, :create, :destroy, :update]
       resources :plan, only: [:show, :create, :destroy, :update]
+      resources :tour_user, only: [:index, :create]
       end
     end
   end
