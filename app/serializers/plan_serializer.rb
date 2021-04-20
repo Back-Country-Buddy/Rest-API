@@ -8,7 +8,5 @@ class PlanSerializer
              :emergency_plan,
              :debrief_conditions,
              :debrief_decisions,
-             :debrief_plan,
-             :departure_check,
-             :checklist
+             :debrief_plan
 end
