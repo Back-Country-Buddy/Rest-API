@@ -18,7 +18,7 @@ RSpec.describe 'Create a plan' do
     expect(plan).to be_a(Hash)
     expect(plan[:data].count).to eq(3)
     expect(plan[:data].keys).to match_array(%i[id type attributes])
-    expect(plan[:data][:attributes].keys).to match_array(%i[hazard_weather hazard_avalanche hazard_summary route_preview route_alternative emergency_plan debrief_conditions debrief_decisions debrief_plan checklist departure_check])
+    expect(plan[:data][:attributes].keys).to match_array(%i[hazard_weather hazard_avalanche hazard_summary route_preview route_alternative emergency_plan debrief_conditions debrief_decisions debrief_plan])
 
     expect(plan[:data][:attributes][:hazard_weather]).to eq("string")
     expect(plan[:data][:attributes][:hazard_avalanche]).to eq('another one')
