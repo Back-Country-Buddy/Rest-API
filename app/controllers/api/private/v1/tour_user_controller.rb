@@ -1,6 +1,7 @@
 class Api::Private::V1::TourUserController < ApplicationController
-  before_action :find_tour, only: %i[ create index ]
-  before_action :find_user, only: :create
+  before_action :find_tour, only: %i[ create index destroy ]
+  before_action :find_user, only: %i[ create destroy ]
+  before_action :find_tour_user, only: :destroy
 
   def index
     users = @tour.users
@@ -16,6 +17,10 @@ class Api::Private::V1::TourUserController < ApplicationController
     TourUser.create!(tour: @tour, user: @user)
   end
 
+  def destroy
+    @tour_user
+  end
+
   private
 
   def find_tour
@@ -24,5 +29,9 @@ class Api::Private::V1::TourUserController < ApplicationController
 
   def find_user
     @user = User.where(email_address: params[:email_address]).first
+  end
+
+  def find_tour_user
+    @tour_user = TourUser.where(tour_id: @tour.id, user_id: @user.id).first.class
   end
 end
