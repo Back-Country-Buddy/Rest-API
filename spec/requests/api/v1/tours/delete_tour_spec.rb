@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Create a tour' do
+RSpec.describe 'Delete a tour' do
   it 'creates a new tour' do
     @tour = Tour.create!(date: "2021-06-30", location: "the moon", creator_id: 100)
     id = @tour.id
