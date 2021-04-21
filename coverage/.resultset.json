@@ -381,6 +381,11 @@
           null
         ]
       },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tour_users/create_tour_user_spec.rb": {
+        "lines": [
+
+        ]
+      },
       "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/create_tour_spec.rb": {
         "lines": [
           1,
@@ -488,7 +493,28 @@
       },
       "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/update_tour_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
         ]
       },
       "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/create_user_spec.rb": {
@@ -721,18 +747,8 @@
           null,
           null,
           null,
-          1,
+          2,
           null,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
           1,
           1,
           1,
@@ -743,6 +759,16 @@
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           1,
@@ -752,7 +778,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null
         ]
@@ -824,6 +850,6 @@
         ]
       }
     },
-    "timestamp": 1618965202
+    "timestamp": 1618966193
   }
 }
