@@ -115,6 +115,16 @@ Example JSON response for the Tour resource:
 POST /api/private/v1/user/:user_id/tour
 ```
 
+- Get all tours associated with a user. The following attributes should be passed as query parameters. 
+- user_id
+```
+GET /api/private/v1/tour
+```
+- or you can use this without passing the query params
+```
+GET /api/private/v1/user/:user_id/tour
+```
+
 - Get one tour
 ```
 GET /api/private/v1/tour/:id
@@ -138,7 +148,7 @@ Example JSON response for the Plan resource:
 {
     "data": {
         "id": "5",
-        "type": "tour",
+        "type": "plan",
         "attributes": {
             "hazard_weather": "string",
             "hazard_avalanche": "string",
@@ -174,6 +184,34 @@ PATCH /api/private/v1/plan/:id
   This endpoint can be used to delete a plan. The user is found by ID.
 ```
 PATCH /api/private/v1/plan/:id
+```
+
+TourUser:
+
+Example JSON response for the TourUser resource:
+```
+{
+    "data": {
+        "id": "5",
+        "type": "tour_user",
+        "attributes": {
+            "tour_id": "1",
+            "user_id": "1"
+        }
+    }
+}
+```
+- Create a tour_user
+  This endpoint can be used to create a tour_user. The following attributes should be passed as query parameters. 
+  email_address, tour_id
+```
+POST /api/private/v1/tour_user
+```
+
+- Get all users associated with a tour. The following attributes should be passed as query parameters. 
+  user_id
+```
+GET /api/private/v1/tour_user
 ```
 
 ### Built With
