@@ -93,6 +93,88 @@ PATCH /api/private/v1/user/#{id}
 
 Tours:
 
+Example JSON response for the Tour resource:
+```
+{
+    "data": {
+        "id": "5",
+        "type": "tour",
+        "attributes": {
+            "date": "2020-05-01",
+            "location": "Mt. Ebert",
+            "creator_id": 6,
+            "complete": "false"
+        }
+    }
+}
+```
+- Create a tour
+  This endpoint can be used to create a tour. The following attributes should be passed as query parameters. 
+  date, location, creator_id, complete
+```
+POST /api/private/v1/user/:user_id/tour
+```
+
+- Get one tour
+```
+GET /api/private/v1/tour/:id
+```
+
+- Update a tour
+  This endpoint can be used to update any of the tour attributes. Attributes should be entered as query parameters
+```
+PATCH /api/private/v1/tour/:id
+```
+- Delete a tour
+  This endpoint can be used to delete a tour. The user is found by ID.
+```
+PATCH /api/private/v1/tour/:id
+```
+
+Plans:
+
+Example JSON response for the Plan resource:
+```
+{
+    "data": {
+        "id": "5",
+        "type": "tour",
+        "attributes": {
+            "hazard_weather": "string",
+            "hazard_avalanche": "string",
+            "hazard_summary": "string",
+            "route_preview": "string",
+            "route_avalanche": "string",
+            "emergency_plan": "string",
+            "debrief_conditions": "string",
+            "debrief_decisions": "string",
+            "debrief_plan": "string"
+        }
+    }
+}
+```
+- Create a plan
+  This endpoint can be used to create a plan. The following attributes should be passed as query parameters. 
+  :hazard_weather, :hazard_avalanche, :hazard_summary, :route_preview, :route_alternative, :emergency_plan, :debrief_conditions, :debrief_decisions, :debrief_plan
+```
+POST /api/private/v1/user/:user_id/tour/tour_id/plan
+```
+
+- Get one plan
+```
+GET /api/private/v1/plan/:id
+```
+
+- Update a plan
+  This endpoint can be used to update any of the plan attributes. Attributes should be entered as query parameters
+```
+PATCH /api/private/v1/plan/:id
+```
+- Delete a plan
+  This endpoint can be used to delete a plan. The user is found by ID.
+```
+PATCH /api/private/v1/plan/:id
+```
 
 ### Built With
 
