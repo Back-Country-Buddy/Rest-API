@@ -219,6 +219,9 @@ GET /api/private/v1/tour_user
 * [Ruby on Rails](https://rubyonrails.org/)
 * [RSpec](https://github.com/rspec/rspec-rails)
 * [JSONAPI](https://github.com/jsonapi-serializer/jsonapi-serializer)
+* [CircleCI](https://circleci.com/)
+* [Heroku](https://heroku.com)
+
 
 ### Schema
 ![Screen Shot](https://user-images.githubusercontent.com/64919819/116146814-29b88680-a69c-11eb-8c1e-8e3b8809f54a.png)
