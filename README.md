@@ -220,7 +220,8 @@ GET /api/private/v1/tour_user
 * [RSpec](https://github.com/rspec/rspec-rails)
 * [JSONAPI](https://github.com/jsonapi-serializer/jsonapi-serializer)
 
-
+### Schema
+![Screen Shot](https://user-images.githubusercontent.com/64919819/116146814-29b88680-a69c-11eb-8c1e-8e3b8809f54a.png)
 
 See the [open issues](https://github.com/Back-Country-Buddy/Rest-API/issues) for a list of proposed features (and known issues).
 
