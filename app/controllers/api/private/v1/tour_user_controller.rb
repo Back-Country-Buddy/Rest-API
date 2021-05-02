@@ -28,7 +28,7 @@ class Api::Private::V1::TourUserController < ApplicationController
   end
 
   def find_user
-    @user = User.where(email_address: params[:email_address]).first
+    @user = User.where(email_address: (params[:email_address].downcase)).first
   end
 
   def find_tour_user

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/environment.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +10,7 @@
           1
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/application.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/application.rb": {
         "lines": [
           1,
           null,
@@ -50,7 +50,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/boot.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -58,7 +58,7 @@
           1
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/environments/test.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -108,7 +108,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/application_controller_renderer.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -120,7 +120,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/backtrace_silencers.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -131,7 +131,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/cors.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -151,7 +151,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/filter_parameter_logging.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -159,7 +159,7 @@
           1
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/inflections.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -179,7 +179,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/mime_types.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -187,7 +187,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/initializers/wrap_parameters.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -205,7 +205,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/config/routes.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -226,7 +226,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/models/plan.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/models/plan.rb": {
         "lines": [
           1,
           1,
@@ -242,14 +242,14 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/models/application_record.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/models/tour_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/models/tour_spec.rb": {
         "lines": [
           1,
           null,
@@ -261,64 +261,6 @@
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/models/tour.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/models/tour_user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/models/tour_user.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/models/user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          1,
-          null,
           2,
           2,
           2,
@@ -329,7 +271,65 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/models/user.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/models/tour.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/models/tour_user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/models/tour_user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/models/user.rb": {
         "lines": [
           1,
           1,
@@ -344,7 +344,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/plans/create_plan_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/plans/create_plan_spec.rb": {
         "lines": [
           1,
           null,
@@ -369,141 +369,6 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/tour_users/create_tour_user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/tours/create_tour_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/tours/delete_tour_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/tours/find_tour_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
           1,
           1,
           1,
@@ -516,7 +381,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/tours/update_tour_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tour_users/create_tour_user_spec.rb": {
         "lines": [
           1,
           null,
@@ -525,33 +390,41 @@
           1,
           1,
           null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           1,
           1,
           null,
           1,
           null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
+          2,
           null,
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/users/create_user_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/create_tour_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
+          1,
+          null,
+          1,
           null,
           1,
           null,
           1,
+          null,
           1,
           null,
           1,
@@ -569,7 +442,134 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/users/delete_user_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/delete_tour_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/find_tour_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/tours/update_tour_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/create_user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/delete_user_spec.rb": {
         "lines": [
           1,
           null,
@@ -589,7 +589,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/users/find_all_users_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/find_all_users_spec.rb": {
         "lines": [
           null,
           null,
@@ -613,7 +613,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/users/find_user_spec.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/find_user_spec.rb": {
         "lines": [
           1,
           1,
@@ -629,40 +629,6 @@
           1,
           null,
           null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/spec/requests/api/v1/users/update_user_spec.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
           1,
           1,
           1,
@@ -682,7 +648,41 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/controllers/api/private/v1/plan_controller.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/spec/requests/api/v1/users/update_user_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/controllers/api/private/v1/plan_controller.rb": {
         "lines": [
           1,
           1,
@@ -729,7 +729,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/controllers/application_controller.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null,
@@ -742,7 +742,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/serializers/plan_serializer.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/serializers/plan_serializer.rb": {
         "lines": [
           1,
           1,
@@ -758,7 +758,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/controllers/api/private/v1/tour_user_controller.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/controllers/api/private/v1/tour_user_controller.rb": {
         "lines": [
           1,
           1,
@@ -799,7 +799,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/controllers/api/private/v1/tour_controller.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/controllers/api/private/v1/tour_controller.rb": {
         "lines": [
           1,
           1,
@@ -857,7 +857,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/serializers/tour_serializer.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/serializers/tour_serializer.rb": {
         "lines": [
           1,
           1,
@@ -865,7 +865,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/controllers/api/private/v1/user_controller.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/controllers/api/private/v1/user_controller.rb": {
         "lines": [
           1,
           null,
@@ -915,7 +915,7 @@
           null
         ]
       },
-      "/Users/alexosborne/turing/mod_4/projects/backcountry/Rest-API/app/serializers/user_serializer.rb": {
+      "/Users/liamcusack/turing/module_4/Back-Country-Buddy/Rest-API/app/serializers/user_serializer.rb": {
         "lines": [
           1,
           1,
@@ -924,6 +924,6 @@
         ]
       }
     },
-    "timestamp": 1619025294
+    "timestamp": 1619106371
   }
 }
