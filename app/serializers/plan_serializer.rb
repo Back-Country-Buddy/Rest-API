@@ -6,6 +6,8 @@ class PlanSerializer
              :route_preview,
              :route_alternative,
              :emergency_plan,
+             :checklist,
+             :departure_check,
              :debrief_conditions,
              :debrief_decisions,
              :debrief_plan
