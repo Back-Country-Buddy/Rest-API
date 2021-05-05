@@ -38,6 +38,6 @@ class Api::Private::V1::PlanController < ApplicationController
 
   private
   def plan_params
-    params.permit(:hazard_weather, :hazard_avalanche, :hazard_summary, :route_preview, :route_alternative, :emergency_plan, :debrief_conditions, :debrief_decisions, :debrief_plan)
+    params.permit(:hazard_weather, :hazard_avalanche, :hazard_summary, :route_preview, :route_alternative, :emergency_plan, :debrief_conditions, :debrief_decisions, :debrief_plan, :departure_check)
   end
 end
